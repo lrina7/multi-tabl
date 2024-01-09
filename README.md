@@ -1,1 +1,1 @@
-# project-practic-js
+# project-practice-js
