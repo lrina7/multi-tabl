@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Ostrovsky", sans-serif;
+}
+
+h1 {
+  font-family: "Ostrovsky", sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+#container {
+  display: flex;
+  width: 80%;
+  margin-top: 20px;
+}
+
+#left {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+#right {
+  flex: 1;
+  padding: 20px;
+  background-color: #e0e0e0;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+}
