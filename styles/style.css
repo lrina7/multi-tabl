@@ -40,7 +40,7 @@ h1 {
 
 #timer {
   font-size: 3em;
-  color: #d71e1e;
+  font-family: "Bungee Spice";
 }
 .btn_timer {
   position: absolute;
@@ -48,10 +48,7 @@ h1 {
   margin-top: 19px;
   margin-left: 20px;
   letter-spacing: 3px;
-
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: large;
+  font-size: x-large;
   overflow: hidden;
 }
 .btn_timer:before {
@@ -121,7 +118,7 @@ h1 {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(to top, #0c002b, #1779ff);
+  background: linear-gradient(to top, #e09915, #72fd32);
   animation: animate4 2s linear infinite;
   animation-delay: 1s;
 }
