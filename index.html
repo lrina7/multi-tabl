@@ -7,12 +7,27 @@
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/skeleton.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@300&family=Poiret+One&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
     <h1>ОНЛАЙН-ТРЕНАЖЕР "ТАБЛИЦА УМНОЖЕНИЯ"</h1>
     <div id="container">
       <div id="left">
         <h2>Тренажер таблицы умножения</h2>
+        <div class="container_timer">
+          <div id="timer">
+            01:00
+            <button class="btn_timer" onclick="startTimer()">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Старт
+            </button>
+          </div>
+        </div>
         <p>Cам тренажер</p>
       </div>
       <div id="right">
