@@ -15,7 +15,7 @@
     <h1>ОНЛАЙН-ТРЕНАЖЕР "ТАБЛИЦА УМНОЖЕНИЯ"</h1>
     <div id="container">
       <div id="left">
-        <h2>Тренажер таблицы умножения</h2>
+        <h2>Тренажер</h2>
         <div class="container_timer">
           <div id="timer">
             01:00
@@ -28,8 +28,27 @@
             </button>
           </div>
         </div>
-        <p>Cам тренажер</p>
+       
+        <div class="container_praxis">
+          <div id = "praxis">
+            <span id="question"></span>
+            <input type="text" id="answer" placeholder="ответ"><br>
+          </div>
+          <button class="btn_praxis" onclick="checkAnswer()" >проверить</button>
+        </div>
+
+        <div class="container_score">
+          <p>Баллы</p>
+          <div id="result">0</div>
+          <p id="text_result"></p>
+
+        </div>
+
+
+
       </div>
+
+
       <div id="right">
         <img id="image" src="./assets/images/book.png" alt="Image" />
       </div>
