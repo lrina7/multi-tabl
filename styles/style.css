@@ -2,13 +2,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
+  padding-top: 50px;
+  height: auto;
   margin: 0;
   font-family: "Ostrovsky", sans-serif;
 }
 
-h1 {
+.h1 {
   font-family: "Ostrovsky", sans-serif;
   font-weight: 700;
   margin-top: 0;
@@ -22,7 +22,6 @@ h1 {
 
 #left {
   flex: 1;
-  padding: 20px;
   background-color: #f0f0f0;
   text-align: center;
 }
@@ -37,7 +36,7 @@ h1 {
   max-width: 100%;
   height: auto;
 }
-
+/* Блок таймер */
 #timer {
   font-size: 3em;
   font-family: "Bungee Spice";
@@ -69,42 +68,6 @@ h1 {
   background: linear-gradient(to right, #ec152e, #e98c0a);
   animation: animate1 2s linear infinite;
 }
-
-/*блок container_praxis*/
-.container_praxis {
-  margin-top: 5%;
-}
-#praxis {
-  display: flex;
-  width: 70%;
-  margin: 0 auto;
-  background-color: #e0e0e0;
-  border: 1px solid #ebe8f1;
-}
-#question {
-  width: 80%;
-  margin: 5%;
-  text-align: center;
-}
-#answer {
-  width: 30%;
-  margin: 5%;
-  text-align: center;
-}
-.btn_praxis {
-  background-color: #e0e0e0;
-  margin-top: 3%;
-}
-.btn_praxis:hover {
-  border: 1px solid #ec152e;
-  background-color: white;
-}
-
-/*блок container_score*/
-.container_score {
-  margin-top: 5%;
-}
-
 @keyframes animate1 {
   0% {
     transform: translateX(-100%);
@@ -164,5 +127,108 @@ h1 {
   }
   100% {
     transform: translateY(-100%);
+  }
+}
+
+/*блок container_praxis*/
+.container_praxis {
+  margin-top: 5%;
+}
+#praxis {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  background-color: #e0e0e0;
+  border: 1px solid #ebe8f1;
+}
+#question {
+  width: 80%;
+  margin: 5%;
+  text-align: center;
+}
+#answer {
+  width: 30%;
+  margin: 5%;
+  text-align: center;
+}
+.btn_praxis {
+  background-color: #e0e0e0;
+  margin-top: 3%;
+}
+.btn_praxis:hover {
+  border: 1px solid #ec152e;
+  background-color: white;
+}
+
+/*блок container_score*/
+.container_score {
+  margin-top: 5%;
+}
+/* МЕДИАЗАПРОСЫ */
+@media (max-width: 1500px) {
+  #container {
+    max-width: 80%;
+  }
+  .h1 {
+    font-size: 32px;
+    margin-top: 0;
+  }
+  .container_timer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+  }
+  .btn_timer {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #timer {
+    margin-left: 20%;
+  }
+  .container_praxis {
+    margin-top: 10%;
+  }
+  #container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 600px) {
+  #timer {
+    margin-left: 0;
+  }
+  .btn_timer {
+    max-width: 20%;
+    margin-left: 10px;
+    font-size: small;
+    padding-left: 15px;
+  }
+  #question {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .h1 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  #timer {
+    font-size: 2.5rem;
+  }
+  .btn_timer {
+    margin-top: 0;
+    padding-left: 5px;
+  }
+  #question {
+    max-width: 40%;
+  }
+  #answer {
+    width: 40%;
+    margin: 0;
+    text-align: center;
   }
 }
