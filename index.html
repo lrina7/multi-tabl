@@ -10,6 +10,11 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@300&family=Poiret+One&display=swap"
       rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
     <h1 class="h1">ТАБЛИЦА НА "ОТЛИЧНО"</h1>
@@ -32,9 +37,15 @@
         <div class="container_praxis">
           <div id="praxis">
             <span id="question"></span>
-            <input type="text" id="answer" placeholder="ответ" /><br />
+            <input type="text" id="answer" /><br />
           </div>
-          <button class="btn_praxis" onclick="checkAnswer()">проверить</button>
+          <button class="btn_praxis" onclick="checkAnswer()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            ответить
+          </button>
         </div>
 
         <div class="container_score">

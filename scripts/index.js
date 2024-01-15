@@ -1,3 +1,4 @@
+//Таймер
 let timerDisplay = document.getElementById('timer');
   let timerInterval;
 
