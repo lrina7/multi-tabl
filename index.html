@@ -1,86 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Тренажер таблицы умножения</title>
-  <style>
-    body {
-      display: flex;
-      flex-direction: column; 
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      font-family: 'Ostrovsky', sans-serif; 
-    }
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Онлайн-тренажер</title>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/skeleton.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@300&family=Poiret+One&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="h1">ТАБЛИЦА НА "ОТЛИЧНО"</h1>
+    <div id="container">
+      <div id="left">
+        <h2>Онлайн-тренажер</h2>
+        <div class="container_timer">
+          <div id="timer">
+            01:00
+            <button class="btn_timer" onclick="startTimer()">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Старт
+            </button>
+          </div>
+        </div>
 
-    h1 {
-      font-family: 'Ostrovsky', sans-serif;
-      font-weight: 700;
-      margin-top: 0;
-    }
+        <div class="container_praxis">
+          <div id="praxis">
+            <span id="question"></span>
+            <input type="text" id="answer" placeholder="ответ" /><br />
+          </div>
+          <button class="btn_praxis" onclick="checkAnswer()">проверить</button>
+        </div>
 
-    #container {
-      display: flex;
-      width: 80%;
-      margin-top: 20px;
-    }
+        <div class="container_score">
+          <p>Баллы</p>
+          <div id="result">0</div>
+          <p id="text_result"></p>
+        </div>
+      </div>
 
-    #left {
-      flex: 1;
-      padding: 20px;
-      background-color: #f0f0f0;
-      text-align: center;
-    }
-
-    #right {
-      flex: 1;
-      padding: 20px;
-      background-color: #e0e0e0;
-    }
-
-    #image {
-      max-width: 100%;
-      height: auto;
-    }
-
-    @media only screen and (max-width: 600px) {
-      #container {
-        width: 100%; 
-      }
-
-      #left, #right {
-        flex: 100%; 
-        margin-bottom: 20px; 
-      }
-    }
-
-    @media only screen and (min-width: 601px) {
-      #container {
-        width: 80%; 
-      }
-
-      #left, #right {
-        flex: 1;
-        margin-bottom: 0; 
-      }
-    }
-  </style>
-  
-</head>
-<body>
-  <h1>ОНЛАЙН-ТРЕНАЖЕР "ТАБЛИЦА УМНОЖЕНИЯ"</h1>
-  <div id="container">
-    <div id="left">
-      <h2>Тренажер таблицы умножения</h2>
-      <p>Здесь будет сам тренажер</p>
+      <div id="right">
+        <img id="image" src="./assets/images/book.png" alt="Image" />
+      </div>
     </div>
-    <div id="right">
-      <img id="image" src="/project-practice-js/assets/images/risunok.jpg" alt="Image">
-    </div>
-  </div>
-</body>
+    <script src="./scripts/index.js"></script>
+  </body>
 </html>
 
 
