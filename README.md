@@ -19,11 +19,6 @@
 
 ## Как начать
 
-1. Склонируйте репозиторий:
-
-   ```bash
-   git clone https://github.com/SerovaKaterina/project-practice-js.git
-
     1. Откройте файл index.html в вашем веб-браузере.
 
     2. Начните тренировку таблицы умножения!
@@ -31,16 +26,13 @@
 ## Особенности приложения
 * Таймер: Запускайте тренировку с таймером и проверяйте, насколько быстро вы можете решать задачи. Таймер настроен на 1 минуту.
 
-![Screen](/assets/images/screen.png)
-
 
 * Баллы и результаты: Ваш текущий счет отображается, и вы можете следить за своим прогрессом (количество правильных и неправильных ответов)
 
-![Screen](/assets/images/screen.png)
 
 ## Использованные технологии
 
-![HTML5](https://icons8.com/icon/46605/html-5) ![css](https://icons8.com/icon/107497/css3)  ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ! [JS] (https://icons8.com/icon/1ZSHk8m9bk4p/javascript)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![JS](https://img.shields.io/badge/js-%23H54Y4E.svg?style=for-the-badge&logo=js&logoColor=white)
 
 ---
 ## Ссылка на приложение 
@@ -49,9 +41,9 @@
 ## Разработчики приложения
 Если у вас есть вопросы или предложения, не стесняйтесь связаться с нами: 
 
-[![link](https://avatars.githubusercontent.com/u/123520801?v=4)](https://github.com/SerovaKaterina)
+[![link](https://img.shields.io/badge/-Катерина-pink?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SerovaKaterina)
 
-[![link](https://avatars.githubusercontent.com/u/137771893?v=4)](https://github.com/Orynbike)
+[![link](https://img.shields.io/badge/-Орынбике-lightblue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Orynbike)
 
-[![link](https://avatars.githubusercontent.com/u/118480557?v=4)](https://github.com/lrina7)
+ [![link](https://img.shields.io/badge/-Ирина-yellow?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lrina7)
 
