@@ -41,6 +41,12 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+#resultIcon {
+  margin-top: 12%;
+  font-size: 50%;
+}
+
 /* Блок таймер */
 #timer {
   font-size: 3em;
@@ -162,9 +168,16 @@ body {
 #answer {
   width: 30%;
   margin-top: 12%;
-  margin-right: 25%;
+  margin-right: 0;
+  margin-left: 0px;
   text-align: center;
   font-size: 48px;
+}
+.result_right {
+  color: #4ce007;
+}
+.result_wrong {
+  color: #ec152e;
 }
 .btn_praxis {
   position: absolute;
