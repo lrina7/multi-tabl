@@ -41,19 +41,21 @@ let timerDisplay = document.getElementById('timer');
 
   function checkAnswer() {
     let userAnswer = parseInt(document.getElementById('answer').value);
-    let scoreElement = document.getElementById('result'); // отдельная переменная для элемента счета
-    let score = parseInt(scoreElement.textContent); // получение текущего значения счета
-   
+    let scoreElementRight = document.getElementById('result_right'); // отдельная переменная для верного элемента счета
+    let scoreRight= parseInt(scoreElementRight.textContent); // получение текущего значения счета
+    let scoreElementWrong = document.getElementById('result_wrong'); // отдельная переменная для неверного элемента счета
+    let scoreWrong= parseInt(scoreElementWrong.textContent); // получение текущего значения счета
 
     if (userAnswer === currentAnswer) {
-      score ++;
+      scoreRight ++; //добавляем балла за верный ответ
     } else {
-      if (score > 0) {
-        score --;
-      }
+      scoreWrong ++;//неверный ответ
     }
-    scoreElement.textContent = score; // обновление элемента счета
+
+    scoreElementRight.textContent = scoreRight;
+    scoreElementWrong.textContent = scoreWrong;
     displayQuestion();
+    let result = scoreRight + scoreWrong;
   }
 
   document.querySelector('.btn_timer').addEventListener("click", displayQuestion);
