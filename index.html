@@ -10,12 +10,17 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@300&family=Poiret+One&display=swap"
       rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
     <h1 class="h1">ТАБЛИЦА НА "ОТЛИЧНО"</h1>
     <div id="container">
       <div id="left">
-        <h2>Онлайн-тренажер</h2>
+        <h2 class="h2">Онлайн-тренажер</h2>
         <div class="container_timer">
           <div id="timer">
             01:00
@@ -28,15 +33,19 @@
             </button>
           </div>
         </div>
-
         <div class="container_praxis">
           <div id="praxis">
             <span id="question"></span>
-            <input type="text" id="answer" placeholder="ответ" /><br />
+            <input type="text" id="answer" /><br />
           </div>
-          <button class="btn_praxis" onclick="checkAnswer()">проверить</button>
+          <button class="btn_praxis" onclick="checkAnswer()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            ответить
+          </button>
         </div>
-
         <div class="container_score">
           <p>Баллы</p>
           <div class="result">
@@ -51,8 +60,6 @@
           <p id="text_result"></p>
         </div>
       </div>
-
-      
       <div id="right">
         <img id="image" src="./assets/images/book.png" alt="Image" />
       </div>

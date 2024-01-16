@@ -1,3 +1,4 @@
+//Таймер
 let timerDisplay = document.getElementById('timer');
   let timerInterval;
 
@@ -58,4 +59,3 @@ let timerDisplay = document.getElementById('timer');
   }
 
   document.querySelector('.btn_timer').addEventListener("click", displayQuestion);
-
