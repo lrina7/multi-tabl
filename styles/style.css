@@ -172,11 +172,15 @@ body {
   text-align: center;
   font-size: 48px;
 }
-.result_right {
-  color: black;
-}
+.result_right,
 .result_wrong {
   color: black;
+}
+#result_right {
+  color: #4d2f84;
+}
+#result_wrong {
+  color: #ec152e;
 }
 .btn_praxis {
   position: absolute;
@@ -283,6 +287,7 @@ body {
   margin-top: 15%;
   font-size: 48px;
 }
+
 /* МЕДИАЗАПРОСЫ */
 @media (max-width: 1500px) {
   #container {
