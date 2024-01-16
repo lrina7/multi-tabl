@@ -1,5 +1,6 @@
 //Таймер
 let timerDisplay = document.getElementById('timer');
+let isTimerExpired = false;
   let timerInterval;
 
   function startTimer() {
@@ -14,6 +15,8 @@ let timerDisplay = document.getElementById('timer');
       if (--durationInSeconds < 0) {
         clearInterval(timerInterval);
         timerDisplay.textContent = 'Время вышло!';
+        isTimerExpired = true;
+			document.querySelector('.btn_praxis').disabled = true;
         showAnswer(); //показ сообщения
       }
     }
@@ -34,6 +37,7 @@ let timerDisplay = document.getElementById('timer');
   }
 
   function displayQuestion() {
+    if (isTimerExpired) return;
     let question = generateQuestion();
     document.getElementById('question').textContent = `${question.num1} x ${question.num2} =`;
     document.getElementById('answer').value = ''; // очистить поле ввода
