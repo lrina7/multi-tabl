@@ -5,19 +5,12 @@ body {
   padding-top: 50px;
   height: auto;
   margin: 0;
-  font-family: "Caveat", cursive;
-  font-family: "Caveat", cursive;
 }
 
 .h1 {
   font-family: "Caveat", cursive;
-  font-family: "Caveat", cursive;
   font-weight: 700;
   margin-top: 0;
-}
-
-.h2 {
-  padding-top: 5%;
 }
 
 .h2 {
@@ -180,10 +173,10 @@ body {
   font-size: 48px;
 }
 .result_right {
-  color: #4ce007;
+  color: black;
 }
 .result_wrong {
-  color: #ec152e;
+  color: black;
 }
 .btn_praxis {
   position: absolute;
@@ -278,6 +271,14 @@ body {
   }
 }
 /*блок container_score*/
+
+#result_right {
+  color: #4d2f84;
+}
+
+#result_wrong {
+  color: #ec152e;
+}
 .container_score {
   margin-top: 15%;
   font-size: 48px;
