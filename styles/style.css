@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   display: flex;
   flex-direction: column;
@@ -51,6 +52,7 @@ body {
   font-size: 3em;
   font-family: "Bungee Spice";
 }
+
 .btn_timer {
   position: absolute;
   background-color: #e0e0e0;
@@ -62,10 +64,12 @@ body {
   font-family: "Caveat", cursive;
   font-size: xx-large;
 }
+
 .btn_timer:hover {
   border: 1px solid #ec152e;
   background-color: white;
 }
+
 .btn_timer:before {
   content: "";
   position: absolute;
@@ -75,6 +79,7 @@ body {
   width: 50%;
   background: rgba(255, 255, 255, 0.05);
 }
+
 .btn_timer span:nth-child(1) {
   position: absolute;
   top: 0;
@@ -84,6 +89,7 @@ body {
   background: linear-gradient(to right, #ec152e, #e98c0a);
   animation: animate1 7s linear infinite;
 }
+
 @keyframes animate1 {
   0% {
     transform: translateX(-100%);
@@ -102,6 +108,7 @@ body {
   animation: animate2 7s linear infinite;
   animation-delay: 1s;
 }
+
 @keyframes animate2 {
   0% {
     transform: translateY(-100%);
@@ -119,6 +126,7 @@ body {
   background: linear-gradient(to left, #e4f315, #31e915);
   animation: animate3 7s linear infinite;
 }
+
 @keyframes animate3 {
   0% {
     transform: translateX(100%);
@@ -137,6 +145,7 @@ body {
   animation: animate4 7s linear infinite;
   animation-delay: 1s;
 }
+
 @keyframes animate4 {
   0% {
     transform: translateY(100%);
@@ -145,11 +154,11 @@ body {
     transform: translateY(-100%);
   }
 }
-
 /*блок container_praxis*/
 .container_praxis {
   margin-top: 5%;
 }
+
 #praxis {
   display: flex;
   width: 50%;
@@ -159,11 +168,13 @@ body {
   border: 1px solid #ebe8f1;
   font-size: 48px;
 }
+
 #question {
   width: 50%;
   margin: 5%;
   text-align: center;
 }
+
 #answer {
   width: 30%;
   margin-top: 12%;
@@ -172,16 +183,20 @@ body {
   text-align: center;
   font-size: 48px;
 }
+
 .result_right,
 .result_wrong {
   color: black;
 }
+
 #result_right {
   color: #4d2f84;
 }
+
 #result_wrong {
   color: #ec152e;
 }
+
 .btn_praxis {
   position: absolute;
   background-color: #e0e0e0;
@@ -191,10 +206,12 @@ body {
   overflow: hidden;
   font-size: large;
 }
+
 .btn_praxis:hover {
   border: 1px solid #ec152e;
   background-color: white;
 }
+
 .btn_praxisr:before {
   content: "";
   position: absolute;
@@ -204,6 +221,7 @@ body {
   width: 50%;
   background: rgba(255, 255, 255, 0.05);
 }
+
 .btn_praxis span:nth-child(1) {
   position: absolute;
   top: 0;
@@ -213,6 +231,7 @@ body {
   background: linear-gradient(to right, #ec152e, #e98c0a);
   animation: animate1 7s linear infinite;
 }
+
 @keyframes animate1 {
   0% {
     transform: translateX(-100%);
@@ -231,6 +250,7 @@ body {
   animation: animate2 7s linear infinite;
   animation-delay: 1s;
 }
+
 @keyframes animate2 {
   0% {
     transform: translateY(-100%);
@@ -248,6 +268,7 @@ body {
   background: linear-gradient(to left, #e4f315, #31e915);
   animation: animate3 7s linear infinite;
 }
+
 @keyframes animate3 {
   0% {
     transform: translateX(100%);
@@ -266,6 +287,7 @@ body {
   animation: animate4 7s linear infinite;
   animation-delay: 1s;
 }
+
 @keyframes animate4 {
   0% {
     transform: translateY(100%);
@@ -275,7 +297,6 @@ body {
   }
 }
 /*блок container_score*/
-
 #result_right {
   color: #4d2f84;
 }
@@ -283,6 +304,7 @@ body {
 #result_wrong {
   color: #ec152e;
 }
+
 .container_score {
   margin-top: 15%;
   font-size: 48px;
@@ -306,7 +328,6 @@ body {
     max-width: 40%;
   }
 }
-
 @media (max-width: 1000px) {
   #timer {
     margin-left: 20%;
@@ -319,7 +340,6 @@ body {
     flex-direction: column-reverse;
   }
 }
-
 @media (max-width: 600px) {
   #timer {
     margin-left: 0;
@@ -334,7 +354,6 @@ body {
     max-width: 50%;
   }
 }
-
 @media (max-width: 400px) {
   .h1 {
     font-size: 24px;
@@ -356,3 +375,5 @@ body {
     text-align: center;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
