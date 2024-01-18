@@ -15,12 +15,14 @@ let isTimerExpired = false;
       if (--durationInSeconds < 0) {
         clearInterval(timerInterval);
         timerDisplay.textContent = 'Время вышло!';
+        timerDisplay.style.fontFamily = "Caveat"
+        timerDisplay.style.color = 'red';
+
         isTimerExpired = true;
-			document.querySelector('.btn_praxis').disabled = true;
-        showAnswer(); //показ сообщения
+			document.querySelector('.btn_praxis').disabled = true;//блокируем кнопку по окончанию таймера
+      showAnswer(); //показ сообщения
       }
     }
-
     updateTimer(); // Обновляем таймер сразу, чтобы избежать мигания
     timerInterval = setInterval(updateTimer, 1000);
   }
