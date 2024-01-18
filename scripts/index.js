@@ -15,12 +15,14 @@ let isTimerExpired = false;
       if (--durationInSeconds < 0) {
         clearInterval(timerInterval);
         timerDisplay.textContent = 'Время вышло!';
+        timerDisplay.style.fontFamily = "Caveat"
+        timerDisplay.style.color = 'red';
+
         isTimerExpired = true;
-			document.querySelector('.btn_praxis').disabled = true;
-        showAnswer(); //показ сообщения
+			document.querySelector('.btn_praxis').disabled = true;//блокируем кнопку по окончанию таймера
+      showAnswer(); //показ сообщения
       }
     }
-
     updateTimer(); // Обновляем таймер сразу, чтобы избежать мигания
     timerInterval = setInterval(updateTimer, 1000);
   }
@@ -79,6 +81,7 @@ let isTimerExpired = false;
       let scoreAll = parseInt(document.getElementById('result_right').textContent) + parseInt(document.getElementById('result_wrong').textContent);
       let scoreRight = parseInt(document.getElementById('result_right').textContent);
       text_message.textContent = `Ваш результат ${scoreRight} из ${scoreAll}`;
+      text_message.style.color ='red';
     }
     
     function startGame() {

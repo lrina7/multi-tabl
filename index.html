@@ -36,7 +36,10 @@
         <div class="container_praxis">
           <div id="praxis">
             <span id="question"></span>
-            <input type="number" id="answer" oninput="this.value = this.value.replace(/[^0-9]/g, '');" />
+            <input
+              type="number"
+              id="answer"
+              oninput="this.value = this.value.replace(/[^0-9]/g, '');" />
             <span id="resultIcon"></span>
           </div>
           <button class="btn_praxis" onclick="checkAnswer()">
@@ -48,12 +51,13 @@
           </button>
         </div>
         <div class="container_score">
-          
           <div class="result">
-            <div class="result_right">Верно
+            <div class="result_right">
+              Верно
               <span id="result_right">0</span>
             </div>
-            <div class="result_wrong">Неверно
+            <div class="result_wrong">
+              Неверно
               <span id="result_wrong">0</span>
             </div>
           </div>

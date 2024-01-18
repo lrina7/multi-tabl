@@ -275,6 +275,14 @@ body {
   }
 }
 /*блок container_score*/
+
+#result_right {
+  color: #4d2f84;
+}
+
+#result_wrong {
+  color: #ec152e;
+}
 .container_score {
   margin-top: 15%;
   font-size: 48px;
