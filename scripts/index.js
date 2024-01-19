@@ -20,6 +20,7 @@ let isTimerExpired = false;
 
         isTimerExpired = true;
 			document.querySelector('.btn_praxis').disabled = true;//блокируем кнопку по окончанию таймера
+      document.getElementById('answer').disabled = true;//блокируем enter по окончанию таймера
       showAnswer(); //показ сообщения
       }
     }
