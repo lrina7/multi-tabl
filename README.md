@@ -1,4 +1,5 @@
 # project-practice-js
+
 # Онлайн-тренажер "Таблица на отлично"
 
 ![Screen](/assets/images/screen.png)
@@ -17,37 +18,32 @@
 
 - **JavaScript:** Логика приложения реализована в файле `index.js`. Здесь находятся функции для управления таймером, проверки ответов и обновления счета.
 
-## Как начать
-
-    1. Откройте файл index.html в вашем веб-браузере.
-
-    2. Начните тренировку таблицы умножения!
-
 ## Особенности приложения
-* Таймер: Запускайте тренировку с таймером и проверяйте, насколько быстро вы можете решать задачи. Таймер настроен на 1 минуту.
 
+- Таймер: Запускайте тренировку с таймером и проверяйте, насколько быстро вы можете решать задачи. Таймер настроен на 1 минуту.
 
-* Баллы и результаты: Ваш текущий счет отображается, и вы можете следить за своим прогрессом (количество правильных и неправильных ответов)
-
+- Баллы и результаты: Ваш текущий счет отображается, и вы можете следить за своим прогрессом (количество правильных и неправильных ответов)
 
 ## Использованные технологии
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
- ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
- ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) 
- ![JS](https://img.shields.io/badge/js-%23H54Y4E.svg?style=for-the-badge&logo=js&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![JS](https://img.shields.io/badge/js-%23H54Y4E.svg?style=for-the-badge&logo=js&logoColor=white)
 
 ---
-## Ссылка на приложение 
+
+## Ссылка на приложение
+
 [Онлайн-тренажер "Таблица на отлично"](https://serovakaterina.github.io/project-practice-js/)
 
 ## Разработчики приложения
-Если у вас есть вопросы или предложения, не стесняйтесь связаться с нами: 
+
+Если у вас есть вопросы или предложения, не стесняйтесь связаться с нами:
 
 [![link](https://img.shields.io/badge/-Катерина-pink?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SerovaKaterina)
 
 [![link](https://img.shields.io/badge/-Орынбике-lightblue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Orynbike)
 
- [![link](https://img.shields.io/badge/-Ирина-yellow?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lrina7)
-
+[![link](https://img.shields.io/badge/-Ирина-yellow?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lrina7)
