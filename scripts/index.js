@@ -59,7 +59,7 @@ let isTimerExpired = false;
 
     if (userAnswer === "") {
       // Пользователь не ввел ответ
-      resultIcon.textContent = 'Введите ваш ответ!';
+      resultIcon.textContent = 'Введите ответ!';
       resultIcon.style.color = 'red';
       return;
     }
@@ -84,7 +84,7 @@ let isTimerExpired = false;
     scoreElementRight.textContent = scoreRight;
     scoreElementWrong.textContent = scoreWrong;
 
-    setTimeout(displayQuestion, 1000);  // Вызовем функцию с задержкой, чтобы иконка не оставалась бесконечно долго
+    setTimeout(displayQuestion, 500);  // Вызовем функцию с задержкой, чтобы иконка не оставалась бесконечно долго
     
   }
 
