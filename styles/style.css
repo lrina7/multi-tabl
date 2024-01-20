@@ -182,7 +182,7 @@ body {
 
 #answer {
   width: 30%;
-  margin-top: 10%;
+  margin-top: 12%;
   margin-right: 0;
   margin-left: 0px;
   text-align: center;
@@ -200,6 +200,10 @@ body {
 
 #result_wrong {
   color: #ec152e;
+}
+
+#resultIcon {
+  margin-top: 5%;
 }
 
 .btn_praxis {
