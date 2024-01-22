@@ -54,7 +54,18 @@ let isTimerExpired = false;
     
   function checkAnswer() {
     let resultIcon = document.getElementById('resultIcon');
-    let userAnswer = parseInt(document.getElementById('answer').value);
+    //let userAnswer = parseInt(document.getElementById('answer').value);
+    let userAnswer = document.getElementById('answer').value.trim();
+
+    if (userAnswer === "") {
+      // Пользователь не ввел ответ
+      resultIcon.textContent = 'Введите ответ!';
+      resultIcon.style.color = 'red';
+      return;
+    }
+
+    userAnswer = parseInt(userAnswer);
+
     let scoreElementRight = document.getElementById('result_right'); // отдельная переменная для верного элемента счета
     let scoreRight= parseInt(scoreElementRight.textContent); // получение текущего значения счета
     let scoreElementWrong = document.getElementById('result_wrong'); // отдельная переменная для неверного элемента счета
@@ -73,7 +84,7 @@ let isTimerExpired = false;
     scoreElementRight.textContent = scoreRight;
     scoreElementWrong.textContent = scoreWrong;
 
-    setTimeout(displayQuestion, 1000);  // Вызовем функцию с задержкой, чтобы иконка не оставалась бесконечно долго
+    setTimeout(displayQuestion, 500);  // Вызовем функцию с задержкой, чтобы иконка не оставалась бесконечно долго
     
   }
 
