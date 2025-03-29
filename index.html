@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="./styles/skeleton.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:wght@300&family=Poiret+One&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h1 class="h1">ТАБЛИЦА НА "ОТЛИЧНО"</h1>
@@ -39,7 +41,8 @@
             <input
               type="number"
               id="answer"
-              oninput="this.value = this.value.replace(/[^0-9]/g, '');" />
+              oninput="this.value = this.value.replace(/[^0-9]/g, '');"
+            />
             <span id="resultIcon"></span>
           </div>
           <button class="btn_praxis" onclick="checkAnswer()">
@@ -53,11 +56,11 @@
         <div class="container_score">
           <div class="result">
             <div class="result_right">
-              Верно
+              Верно:
               <span id="result_right">0</span>
             </div>
             <div class="result_wrong">
-              Неверно
+              Неверно:
               <span id="result_wrong">0</span>
             </div>
           </div>
